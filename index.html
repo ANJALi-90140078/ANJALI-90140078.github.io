@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap" rel="stylesheet">
+    <meta name="description" content="Anjali's Portfolio">
+    <title>Anjali's Portfolio</title> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo"> Anjali Ametwar</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <h1 class="typing-text">Welcome to My Portfolio  <span></span></h1>
+            <p>I'm Anjali,  passionate for fullstack developer with expertise in creating dynamic and responsive web applications. I specialize in using technologies like React, Node.js, MongoDB, and more.</p>
+            <a href="anjaliametwar@gmail.com" class="btn">Hire me</a>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="images/profile.jpeg" alt="Anjali's Profile Picture" class="profile-pic">
+            <div class="about-text">
+                <p>
+                    Hi, I'm Anjali, a passionate for fullstack developer with a keen interest in building dynamic and responsive web applications. 
+                    I have experience in various technologies including HTML, CSS, JavaScript, React, MongoDB, MySQL, Python, and PHP. 
+                    I'm constantly learning and exploring new technologies to enhance my skill set. I believe in writing clean, efficient code and 
+                    enjoy collaborating with others to create innovative solutions.
+                </p>
+                <a href="Anjali.pdf" class="btn" target="_blank">View My Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js-square"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-react"></i>
+                <h3>React</h3>
+            </div>
+            <div class="skill">
+                <i class="fas fa-database"></i>
+                <h3>MySQL</h3>
+            </div>
+            <div class="skill">
+                <i class="fas fa-database"></i>
+                <h3>MongoDB</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-php"></i>
+                <h3>PHP</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>CryptocurrencyDashboard</h3>
+                <p>React frontend project for Cryptocurrency .</p>
+                <a href="https://github.com/ANJALi-90140078/Cryptocurrency" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>BookMyShow Backend</h3>
+                <p>Backend project built with MongoDB and Node.js.</p>
+                <a href="https://github.com/ANJALi-90140078/bookmyshow-ab" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Entertainment App</h3>
+                <p>A fullstack app providing entertainment content.</p>
+                <a href="https://github.com/ANJALi-90140078/Entertainment-app" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="social-icons">
+            <a href="www.linkedin.com/in/anjali-ametwar-754555276" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/ANJALi-90140078" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <!-- Chatbox -->
+    <div class="chatbox">
+        <div class="chatbox-header">
+            <span>Chat with Me</span>
+            <button class="chatbox-toggle"><i class="fa fa-hand-o-up" aria-hidden="true"></i></button>
+        </div>
+        <div class="chatbox-body">
+            <div class="chat-messages"></div>
+            <input type="text" class="chat-input" placeholder="Type your message..." />
+            <button class="send-btn">Send</button>
+        </div>
+    </div>
+    
+
+    <!-- Footer -->
+    <footer>
+        <div>Mail to : anjaliametwar@gmail.com</div>
+        <p>&copy; 2024 Anjali. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
